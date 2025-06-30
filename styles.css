@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+header {
+    text-align: center;
+    padding: 2em;
+}
+.logo {
+    width: 60px;
+    margin-bottom: 1em;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background: #111;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: #0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 3em 1em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.app-section .apps {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.card {
+    background: #111;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+    width: 180px;
+}
+.card img {
+    width: 64px;
+    height: auto;
+}
+.limited {
+    color: #0f0;
+    text-align: center;
+    margin-top: 1em;
+}
+.whatsapp {
+    display: inline-block;
+    background: #0f0;
+    color: #000;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
+footer {
+    background: #111;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
